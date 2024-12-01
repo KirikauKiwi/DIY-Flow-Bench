@@ -177,7 +177,7 @@ hr {
 	font-size: 2.1rem;
 	font-weight: bold;
 	color: ~PITOT_COLOUR~;
-  }
+}
 
 .differential-tile-value {
 	font-size: 2.1rem;
@@ -1744,18 +1744,18 @@ function initialiseButtons() {
   document.getElementById('on-button').addEventListener('click', function(){
     console.log('Bench On');
     xhr.open('GET', '/api/bench/on');
-    xhr.onload = function() {
-      if (xhr.status === 200);
-    };
+    //xhr.onload = function() {
+    //  if (xhr.status === 200) window.location.href = '/';
+    //};
     xhr.send();
   });
 
   document.getElementById('off-button').addEventListener('click', function(){
     console.log('Bench Off');
     xhr.open('GET', '/api/bench/off');
-    xhr.onload = function() {
-      if (xhr.status === 200);
-    };
+    //xhr.onload = function() {
+    //  if (xhr.status === 200) window.location.href = '/';
+    //};
     xhr.send();
   });
 
