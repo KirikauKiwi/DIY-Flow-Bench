@@ -154,9 +154,9 @@ const int ADC_I2C_ADDR = 0x48;
 /**
  * Validated + Tested
  ***/  
-// #define MAF_DATA_FILE "mafData/BOSCH_0280218067.cpp"     // AUDI RS4 (884cfm)
+#define MAF_DATA_FILE "mafData/BOSCH_0280218067.cpp"     // AUDI RS4 (884cfm)
 // #define MAF_DATA_FILE "mafData/SIEMENS_5WK9605.cpp"      // BMW M54B30 (502cfm)
-#define MAF_DATA_FILE "mafData/ACDELCO_92281162.cpp"     // LS2 (832cfm) 
+// #define MAF_DATA_FILE "mafData/ACDELCO_92281162.cpp"     // LS2 (832cfm) 
 
 
 /**

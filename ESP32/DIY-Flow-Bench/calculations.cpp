@@ -448,19 +448,19 @@ double Calculations::convertToSCFM(double flowCFM, int standard) {
 
     case ISO_13443:
       tStd = 15;
-      pStd = 100.325;
+      pStd = 101.325;
       rhStd = 0;
     break;
 
     case ISO_5011:
-      tStd = 25;
-      pStd = 100.3;
+      tStd = 20;
+      pStd = 101.3;
       rhStd = 50;
     break;
 
     case ISO_2533:
       tStd = 15;
-      pStd = 100.325;
+      pStd = 101.325;
       rhStd = 0;
     break;
 
