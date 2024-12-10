@@ -180,7 +180,7 @@ const int ADC_I2C_ADDR = 0x48;
 #define MAF_SRC_IS_ADC
 
 
-#define MAF_MV_TRIMPOT 0.0                                  // Millivolt offset
+#define MAF_MV_TRIMPOT -0.185                                  // Millivolt offset
 #define MAF_ADC_CHANNEL 0
 
 
