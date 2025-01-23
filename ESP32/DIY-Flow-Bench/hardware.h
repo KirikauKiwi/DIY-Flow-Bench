@@ -18,7 +18,10 @@
  ***/
 #pragma once
 
+#include <ArduinoJson.h>
+
 class Hardware {
+
 	
 	friend class Messages;
 	friend class Maths;
@@ -33,10 +36,9 @@ class Hardware {
 	public:
 		Hardware();
 		void begin ();
-		void initialise ();
-		void beginSerial(void);
 		void getI2CList();
 		void getI2CDeviceList();
+		void initaliseIO ();
 		
 		int32_t getADCRawData(int channel);
 		double get3v3SupplyVolts();
@@ -51,8 +53,11 @@ class Hardware {
 		void benchOff();
 		float uptime();
 
+		void stepperTest();
+
+
 	private:
-		void configurePins ();
+		// void configurePins ();
 
 
 };
